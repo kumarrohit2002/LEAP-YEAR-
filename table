@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th{
+    
+    border-collapse: collapse;
+    border:5px solid black;
+    
+}
+table{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+th{
+    background-color:yellow;
+    color:black;
+}
+tr:hover{
+    color: rgb(197, 34, 45);
+    background-color: rgb(174, 21, 108);
+    font-size: 20px;
+    
+}
+#r1 :hover{
+    background-color: brown;
+}
+#r2 :hover{
+    background-color: blue;
+}
+#r3 :hover{
+    background-color: orange;
+}
+
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr id="r1">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr id="r2">
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+        <tr id="r3">
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
