@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 10px;
+            padding: 0px;
+            /* background: url('https://cdn.pixabay.com/photo/2019/02/14/12/04/blood-3996485_960_720.jpg'); */
+            background-image: url('https://as1.ftcdn.net/v2/jpg/02/81/21/06/1000_F_281210681_9EfzWqtj7pN8k1I3ZC0POxa0mej6Q3ZP.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .navbar{
+            border-radius: 8px;
+            background-color: black;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+            
+        }
+        .navbar li{
+            float: left;
+            list-style-type:none;
+            padding: 8px 3px;
+            
+        }
+        .navbar li a{
+                padding: 3PX 3PX ;
+                text-decoration: none;
+                color: rgb(231, 227, 227);
+        }
+        .search{
+            float:right;
+            color: white;
+            padding: 12px 75px;
+        }
+        li:hover{
+            background-color: rgb(19, 186, 192);
+        }
+        h4{
+            font-size: 2.5em;
+            color: brown;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h4>Blood Donation +</h4>
+    <center>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <center>
+</body>
+</html>
